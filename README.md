@@ -5,9 +5,7 @@ This repository contains a small program written in Java which builds up a basic
 In this 3D game world, user's position and user's view are both stored in double values, so that user can move around and rotate the view in horizontal direction fluently in the game. 
 <br />
 <br />
-The critical concept of Ray-Casting is that it uses 4 double vectors, x and y direction vectors, x and y plane vectors to calculate what pixels on the screen representing the right wall and left wall, then what pixels on the screen representing
-the ceiling and the floor. After this, the program is able to convert wall images pixel by pixel into the corresponding group 
-of pixels on the screen representing walls. <br />
+The critical concept of Ray-Casting is that it uses 4 double vectors, x and y two direction vectors, x and y two plane vectors to calculate what pixels on the screen are representing the right wall and left wall, then what pixels on the screen are representing the ceiling and the floor. After this, the program is able to convert wall images pixel by pixel into the corresponding group of pixels representing walls on the screen. <br />
 Renderring floor and ceiling can use the same idea, but in this case, i just used backgroud color with different darkness to represent the floor and the ceiling.<br />
 
 ### The looks of the 3D game: <br />
