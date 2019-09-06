@@ -4,7 +4,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * The picture class is for holding the pictures for wall. 
+ * The picture class is for holding the pictures for wall.
  * @author LY
  */
 public class Picture {
@@ -15,23 +15,23 @@ public class Picture {
     /**
      * corridor wall picture.
      */
-    public static Picture corridorWall = new Picture("src/corridorWall.png", 64);
+    public static Picture corridorWall = new Picture("gameLookPics/corridorWall.png", 64);
     /**
      * room wall picture.
      */
-    public static Picture roomWall = new Picture("src/roomWall.png", 64);
+    public static Picture roomWall = new Picture("gameLookPics/roomWall.png", 64);
     /**
      * room door picture.
      */
-    public static Picture roomDoor = new Picture("src/roomDoor.png", 64);
+    public static Picture roomDoor = new Picture("gameLookPics/roomDoor.png", 64);
     /**
      * final door picture.
      */
-    public static Picture finalDoor = new Picture("src/finalDoor.png", 64);
+    public static Picture finalDoor = new Picture("gameLookPics/finalDoor.png", 64);
     /**
      * win image for the final room
      */
-    public static Picture winImage = new Picture("src/winImage.png", 64);
+    public static Picture winImage = new Picture("gameLookPics/winImage.png", 64);
     // SIZE represents the length of one side of a square picture
     private final int size;
     // pixels array holds all pixel data for the picture
