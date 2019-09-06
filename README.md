@@ -1,6 +1,6 @@
 # RayCasting
 
-This repository contains code which builds up a basic 3D game world by using Ray-Casting algorithm. 
+This repository contains a small program which builds up a basic 3D game world by using Ray-Casting algorithm. 
 <br />
 In this 3D game world, user's position and user's view are both stored using double values, so that user can move around and rotate the view in horizontal direction fluently in this 3D game world. 
 <br />
